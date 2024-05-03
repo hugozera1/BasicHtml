@@ -109,3 +109,15 @@ body, html {
   margin: auto;
 
 }
+.box3{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 220px;
+  margin: auto;
+
+}
+.codespan {
+  font-size: 15px;
+ color: rgb(201, 43, 117);
+}
