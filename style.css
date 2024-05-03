@@ -70,6 +70,13 @@ body, html {
   margin: 5px;
   
 }
+.exer2{
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+  height: 230px;
+  
+}
 .ex-head{
   text-align: center;
 
@@ -117,7 +124,72 @@ body, html {
   margin: auto;
 
 }
+.box4{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 280px;
+  margin: auto;
+
+}
+.box5{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  justify-content: center;
+
+}
+
 .codespan {
   font-size: 15px;
  color: rgb(201, 43, 117);
+}
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 5px;
+
+}
+.green{
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.yellow{
+  width: 150px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.blue{
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.red{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
