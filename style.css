@@ -141,6 +141,15 @@ body, html {
   justify-content: center;
 
 }
+.box6{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 120px;
+  margin: auto;
+  justify-content: center;
+
+}
 
 .codespan {
   font-size: 15px;
