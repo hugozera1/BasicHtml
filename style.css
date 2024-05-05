@@ -159,11 +159,20 @@ body, html {
   justify-content: center;
 
 }
+.box105{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  justify-content: center;
+
+}
 .box101{
   background-color: #e8e2e2;
   border-radius: 10px;
   width: 500px;
-  height: 360px;
+  height: 500px;
   margin: auto;
   justify-content: center;
 
@@ -177,7 +186,15 @@ body, html {
   justify-content: center;
 
 }
+.boxx{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  justify-content: center;
 
+}
 .codespan {
   font-size: 15px;
  color: rgb(201, 43, 117);
@@ -188,6 +205,13 @@ body, html {
   gap: 10px;
   margin: 5px;
 
+}
+.frame{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 5px;
 }
 .green{
   width: 150px;
