@@ -9,13 +9,246 @@
 <body>
     <div class="full-content">
         <div class="title">
-        <h1>HTML BASIC</h1>
+        <h1>HTML SEMANTICS</h1>
+        </div> 
+        <p>As semanticas no html servem como um elemento que tem signficado especifico <br> Exemplo é o &lt;footer&gt; que serve pra especificar o rodapé da pagina </p>
+        <div class="box1012" >
+            <div class="ex-head" >
+                <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+            </div>
+            <code class="codespan">
+                &lt;article&gt;
+                &lt;aside&gt;
+                &lt;details&gt;
+                &lt;figcaption&gt;
+                &lt;figure&gt;
+                &lt;footer&gt;
+                &lt;header&gt;
+                &lt;main&gt;
+                &lt;mark&gt;
+                &lt;nav&gt;
+                &lt;section&gt;
+                &lt;summary&gt;
+                &lt;time&gt;
+                
+            </code>
         </div>
-        <p>Esse capitulo vai mostrar alguns conceitos basicos para se começar a aprender html.</p>
-        <p>No inicio de todo documento html deve se declarar o tipo do documento: <span style="color:rgb(201, 43, 117);">&lt;!DOCTYPE html&gt; </span> Logo após declarar começa com um: <span style="color:rgb(201, 43, 117);">&lt;html&gt; </span>e a parte visivel do codigo entra na tag <span style="color: rgb(201, 43, 117);">&lt;body&gt</span>e que fecha <span style="color: rgb(201, 43, 117);">&lt;/body&gt</span>e termina com um: <span style="color:rgb(201, 43, 117);">&lt;/html&gt; </span></p>
+        <img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="">
+        <div class="title">
+            <h1>HTML STYLE GUIDE</h1>
+            </div> 
+        <p>No html existem algumas normas na hora de programar que deixam o codigo mais facil de entender e mais bonito pra quem for ler</p>            
+        <p>Um exemplo de codigo feito "errado" é :</p>
+        <div class="box1012" >
+            <div class="ex-head" >
+                <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+            </div>
+            <div class="atributos-ex">
+            <code class="codespan">
+                &lt;BODY&gt;
+                &lt;p&gt; texto &lt;/p&gt;
+                &lt;/BODY&gt;
+                </code>
+            </div>
+            <div class="atributos-ex">
+                <code class="codespan">
+                    &lt;a href="https://www.youtube.com/"&gt;
+                </code>
+                             
+            </div>
+                
+             
+            </code>
+        </div>        
+        <p>Normalmente n se deve inicial um elemento com letra maisculo e em seguida com letra minuscula, fica feio e é tipo um senso comum entre os programadores</p>                
+
+        <div class="title">
+            <h1>HTML ENTITIES</h1>
+            </div>         
+        <p>
+            As entites sao tao importantes que elas sao usadas em 90% dessa pagina quando eu precisava substuir algum caracter <br>
+            Exemplo quando for exeplicar um codigo nao é possivel escrever &lt;body&gt; sem ativar o elemento, entao usamos <b>&amp;lt;</b> para o < e para o > = <b>&amp;gt;</b></e>
+        </p>            
+        <div class="box1012">
+            <div class="ex-head" >
+                <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+            </div>
+            <div class="atributos-ex">
+                <code class="codespan">
+                    &amp;lt;body&amp;gt;<br>
+                    &amp;lt;footer&amp;gt;  <br>   
+                    &amp;lt;aside&amp;gt;<br>
+                    &amp;lt;header&amp;gt;<br>     
+                </code>    
+            </div>            
+
+        </div>
+        <div class="title">
+            <h1>HTML SYMBOLS</h1>
+            </div> 
+            <p> Symbols servem para adicionar no texto caracteres que nao estao presentes no teclado convencional do programador</p>        
+            <div class="box1012">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                            
+                       &#169; &#8482; &#174; &#8471;<br>
+                       para mostrar esses itens: &amp;#169; &amp;#8482; &amp;#174 &amp;#8471
+                    </code>                        
+                </div>
+            </div>
+            <div class="title">
+                <h1>HTML EMOJIS</h1>
+                </div> 
+                <p>
+                    emojis sao caracteres que sao usados para representar imagens e no html voce pode representalos com os seguintes comandos:
+
+                </p>
+                <div class="box1012">
+                    <div class="ex-head" >
+                        <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                    </div>
+                    <div class="atributos-ex">
+                        <code class="codespan">
+                            &amp;#128507;<br>
+                            &amp;#128508;<br>
+                            &amp;#128512;<br>
+                            &#128507;
+                            &#128508;	
+                            &#128512;
+                            
+                        </code>
+                    </div>
+
+                </div>
+                <div class="title">
+                    <h1>HTML CHARSET</h1>
+                    </div> 
+                <p> O charset serve para comunicar com a pagina quais tipos de caracteres você vai usar dentro da pagina para o uso convencional geralmente usa o seguinte exemplo:</p>                    
+                <div class="box1012">
+                    <div class="ex-head" >
+                        <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                    </div>
+                    <div class="atributos-ex">
+                        <code class="codespan">
+                            &lt;meta charset="UTF-8"&gt;
+
+
+                        </code>
+
+                    </div>                    
+                </div>
+
+                <div class="title">
+                    <h1>HTML URL ENCODE</h1>
+                    </div>      
+                    <p>A codificação de URL (Uniform Resource Locator) é o processo de converter caracteres especiais e espaços em branco em uma representação hexadecimal de dois dígitos (%xx), onde "xx" é o valor hexadecimal do caractere original. Isso é feito para evitar que caracteres especiais e espaços em branco interfiram na interpretação correta da URL pelos navegadores da web e outros sistemas.<br><br>
+
+                        Por exemplo, se você tiver uma URL com espaços em branco e caracteres especiais como "&" ou "?", precisará codificá-la antes de enviá-la ao servidor. Assim, um espaço em branco se torna "%20", "&" se torna "%26", e assim por diante.<br><br>
+                        
+                        A codificação de URL também é conhecida como "codificação percentual" devido ao uso do caractere "%" para indicar que um valor codificado em hexadecimal está prestes a seguir. Isso garante que a URL seja válida e segura para ser transmitida e processada pelos navegadores da web e servidores. Por exemplo, a URL "https://example.com/search?q=hello world" seria codificada como "https://example.com/search?q=hello%20world".</p>
+                        <div class="title">
+                            <h1>HTML vs XHTML</h1>
+                            </div>      
+                    <p>XHTML é uma versao mais estrita  de html com algumas pequenas diferenças e signfica EXtensible HyperText Markup Language</p>                                                            
+                    <div class="box4">
+                        <div class="ex-head" >
+                            <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                        </div>
+                        <div class="atributos-ex">
+                            <code class="codespan">
+                                <ul>
+                                 
+                                    <li>Elements devem sempre ser <b> alinhados corretamente</b></li>
+                                    <li>Os elementos devem estar sempre <b>fechados</b></li>
+                                    <li>Elements devem sempre estar em <b>minusculo</b></li>
+                                    <li>Os nomes dos atributos devem estar sempre em <b>minusculo</b></li>
+                                    <li>Os valores dos atributos devem sempre ser <b>citados</b></li>
+                                    <li>A minimização de atributos é<b>proibida</b></li>
+                                  </ul>                                
+                            </code>
+
+                        </div>                        
+
+                    </div>
+                    <div class="title">
+                        <h1>HTML Forms</h1>
+                        </div>
+                    <p>No html voce também pode criar varios tipos de formularios :D :</p>
+                    <div class="box4">
+                        <div class="ex-head" >
+                            <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                        </div>
+                        <div class="atributos-ex">
+                            <code class="codespan">
+                                &lt;form&gt;<br>
+                                  &lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;<br>
+                                  &lt;label for="html"&gt;HTML&lt;/label&gt;&lt;br&gt;<br>
+                                  &lt;input type="radio" id="css" name="fav_language" value="CSS"&gt;<br>
+                                  &lt;label for="css"&gt;CSS&lt;/label&gt;&lt;br&gt;<br>
+                                  &lt;input type="radio" id="javascript" name="fav_language" value="JavaScript"&gt;<br>
+                                  &lt;label for="javascript"&gt;JavaScript&lt;/label&gt;<br>
+                                &lt;/form&gt;
+                                                                
+                            </code>
+
+                        </div>                        
+
+                    </div>
+
+                    <form>
+                          <input type="radio" id="html" name="fav_language" value="HTML">
+                          <label for="html">HTML</label><br>
+                          <input type="radio" id="css" name="fav_language" value="CSS">
+                          <label for="css">CSS</label><br>
+                          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                          <label for="javascript">JavaScript</label>
+                        </form>      
+            <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>                
+                <div class="atributos-ex">
+                    <code class="codespan">
+                        &lt;form&gt;
+                        &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="fname" name="fname" value="John"&gt;<br>
+                        &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="lname" name="lname" value="Doe"&gt;<br>
+                      &lt;/form&gt;<br>
+                      
+                    </code>
+                </div>
+
+            </div>   
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe">
+              </form>   
+              <div class="title">
+                <h1>HTML Forms Atributos</h1>
+                </div>           
+            <p> Os forms tem diversos atributos e aqui vai alguns exemplos</p>                                    
+            <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                        <ul><li>&lt;input&gt; – Define um campo de entrada de dados;</li><li>&lt;textarea&gt; – Define uma área de texto, podendo conter diversas linhas de texto;</li><li>&lt;button&gt; – Define um botão;</li><li>&lt;select&gt; – Define uma lista selecionável, também conhecida como drop-down;</li></ul>
+
+
+                    </code>
+
+                </div>
+            </div>
     </div>
         
-    </div>   
+    
     
 </body>
 </html>
