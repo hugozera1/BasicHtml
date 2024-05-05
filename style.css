@@ -150,6 +150,33 @@ body, html {
   justify-content: center;
 
 }
+.box10{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  justify-content: center;
+
+}
+.box101{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 360px;
+  margin: auto;
+  justify-content: center;
+
+}
+.box1012{
+  background-color: #e8e2e2;
+  border-radius: 10px;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  justify-content: center;
+
+}
 
 .codespan {
   font-size: 15px;
@@ -201,4 +228,19 @@ body, html {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+.exercicio{
+  justify-content: center;
+  color: teal;
+  border-radius: 10px;
+  background-color: thistle;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#foot{
+  color: yellowgreen;
+  font-size: 20px;
+  font-family: Monocraft;
 }
