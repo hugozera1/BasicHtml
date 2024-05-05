@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML IV</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="full-content">
+        <div class="title">
+        <h1>HTML FORM ELEMENTS</h1>
+        </div> 
+        <p>
+            os formularios tem diversos tipos de elementos em html:
+        </p>
+        <div class="box4">
+            <div class="ex-head" >
+                <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+            </div>
+            <div class="atributos-ex">        
+                <code class="codespan">
+                    <ul>
+                        <li> <code class="codespan">&lt;input&gt;</code></li>
+                          <li> <code class="codespan">&lt;label&gt;</code></li>
+                          <li> <code class="codespan">&lt;select&gt;</code></li>
+                        <li> <code class="codespan">&lt;textarea&gt;</code></li>
+                        <li> <code class="codespan">&lt;button&gt;</code></li>
+                        <li> <code class="codespan">&lt;fieldset&gt;</code></li>
+                          <li> <code class="codespan">&lt;legend&gt;</code></li>
+                          <li> <code class="codespan">&lt;datalist&gt;</code></li>
+                          <li> <code class="codespan">&lt;output&gt;</code></li>
+                        <li> <code class="codespan">&lt;option&gt;</code></li>
+                        <li> <code class="codespan">&lt;optgroup&gt;</code></li>
+                        </ul>
+                    
+                </code>
+                
+                
+            </div>
+        </div>
+        <div class="title">
+            <h1>HTML INPUT TYPES</h1>
+            </div> 
+            <p>
+                existem varios tipos de inputs em html:
+            </p>
+            <div class="box44">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">        
+                    <code class="codespan">
+                        <ul>
+                            <li><code class="codespan">&lt;input type="button"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="checkbox"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="color"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="date"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="datetime-local"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="email"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="file"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="hidden"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="image"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="month"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="number"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="password"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="radio"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="range"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="reset"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="search"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="submit"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="tel"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="text"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="time"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="url"&gt;</code></li>
+                            <li><code class="codespan">&lt;input type="week"&gt;</code></li>
+                          </ul>
+                        
+                    </code>
+                    
+                    
+                </div>
+            </div>
+            <div class="title">
+                <h1>HTML INPUT ATTRIBUTES</h1>
+                </div>     
+            <p> input também possui diversos tipos de atributos!:</p>
+            <p>O <span style="color: rgb(201, 43, 117);">value</span> serve como um especificador de valor para um input</p>
+
+
+            <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                         &lt;form&gt;
+                        &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="fname" name="fname" value="John"&gt;<br>
+                        &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="lname" name="lname" value="Doe"&gt;<br>
+                      &lt;/form&gt;<br>
+                    </code>
+
+                </div>            
+
+            </div>
+            <p>
+                e o input <span style="color: rgb(201, 43, 117);">disable</span> atributo especifca quando um input deve ficar desativado
+            </p>
+            <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                        &lt;form&gt;
+                        &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="fname" name="fname" value="John" disabled&gt;<br>
+                        &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="lname" name="lname" value="Doe"&gt;<br>
+                      &lt;/form&gt;<br>
+                    </code>
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John" disabled><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe">
+                      </form>
+                      
+                </div>                
+
+            </div>
+            <div class="title">
+                <h1>INPUT FORM ATTRIBUTES</h1>
+                </div>
+                <p>Este capítulo descreve os diferentes atributos <code>form*</code> para o elemento HTML <code>&lt;input&gt;</code>.</p>
+                <h3>O Atributo <code>form</code></h3>
+                <p>O atributo <code>form</code> especifica o formulário ao qual o elemento <code>&lt;input&gt;</code> pertence.</p>
+                <p>O valor deste atributo deve ser igual ao atributo <code>id</code> do elemento <code>&lt;form&gt;</code> ao qual ele pertence.</p>
+              <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                        &lt;form action="/pagina_de_acao.php" id="form1"&gt;<br>
+                        &lt;label for="fname"&gt;Nome:&lt;/label&gt;<br>
+                        &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;<br>
+                        &lt;input type="submit" value="Enviar"&gt;<br>
+                        &lt;/form&gt;
+
+                        &lt;label for="lname"&gt;Sobrenome:&lt;/label&gt;<br>
+                        &lt;input type="text" id="lname" name="lname" form="form1"&gt;<br>
+
+                    </code>
+
+                </div>                
+
+              </div>
+              <h3>O Atributo <code>formaction</code></h3>
+              <p>O atributo <code>formaction</code> especifica a URL do arquivo que processará a entrada quando o formulário for enviado.</p>
+              <div class="box4">
+                <div class="ex-head" >
+                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                </div>
+                <div class="atributos-ex">
+                    <code class="codespan">
+                        &lt;form action="/pagina_de_acao.php"&gt;<br>
+                        &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;<br>
+                        &lt;input type="submit" value="Enviar"&gt;<br>
+                        &lt;input type="submit" formaction="/pagina_de_acao2.php" value="Enviar como Administrador"&gt;<br>
+
+                      &lt;/form&gt;<br>
+
+                    </code>
+
+                </div>                
+
+              </div>      
+              <div class="title">
+                <h1>HTML CANVAS</h1>
+                </div>
+                <p> a tag canva é utlizada para desenhar graficos em uma pagina web!:</p>
+                <div class="box4">
+                    <div class="ex-head" >
+                        <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                    </div>                    
+                    <div class="atributos-ex">
+                        <code class="codespan">
+                            &lt;canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"&gt;
+                            &lt;/canvas&gt;
+                            
+                        </code>
+
+                    </div>
+                    <div class="atributos-ex">
+                        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                        </canvas>
+                        
+                                                
+                    </div>
+
+                </div>
+                <p>
+                    esse é apenas um exemplo mas vc pode fazer diversas formas graficas com isso!
+                </p>
+                <div class="title">
+                    <h1>HTML SVG</h1>
+                    </div>
+                    <p>
+                        svg significa scale vector graphics 
+                        <br> é possivel tbm usar o svg para fazer diversas formas e com retangulos circulos e etc
+                    </p>
+                    <div class="box4">
+                        <div class="ex-head" >
+                            <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                        </div> 
+                        <div class="atributos-ex">
+                            <code class="codespan">
+                                &lt;svg width="100" height="100"&gt;
+                                &lt;circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /&gt;
+                                &lt;/svg&gt;
+
+
+                            </code>
+                         
+                        </div>                        
+                        <div class="atributos-ex">
+                            <svg width="100" height="100">
+                                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                              </svg>
+
+                        </div>
+
+                    </div>
+                    <div class="title">
+                        <h1>HTML MEDIA</h1>
+                        </div>
+                        <p>
+                            na hora de fazer um site você tem que levar em conta quais tipos de midia e arquivos vao estar presentes no seu site e aqui vai uma lista de alguns formatos conhecidos
+                        </p>                    
+                        <div class="box44">
+                            <div class="ex-head" >
+                                <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                            </div> 
+                            <div class="atributos-ex">
+                                
+                                <ul>
+                                    <li><strong>MP3:</strong> Formato de áudio comprimido, amplamente utilizado para músicas e áudio em geral.</li>
+                                    <li><strong>MPEG-4:</strong> Formato de vídeo comum, suporta alta qualidade e é amplamente utilizado em vídeos online, streaming e DVDs.</li>
+                                    <li><strong>JPEG:</strong> Formato de imagem comprimida, ideal para fotografias e imagens com muitos detalhes.</li>
+                                    <li><strong>PNG:</strong> Formato de imagem sem perdas, usado para gráficos na web e imagens com transparência.</li>
+                                    <li><strong>GIF:</strong> Formato de imagem animada, frequentemente usado para pequenas animações e memes.</li>
+                                    <li><strong>MP4:</strong> Formato de vídeo compactado, suporta alta qualidade e é amplamente utilizado em vídeos online e streaming.</li>
+                                    <li><strong>FLAC:</strong> Formato de áudio sem perdas, ideal para audiófilos e arquivos de música de alta qualidade.</li>
+                                    <li><strong>WebM:</strong> Formato de vídeo aberto, otimizado para a web e amplamente utilizado em vídeos online.</li>
+                                    <li><strong>SVG:</strong> Formato de imagem vetorial, ideal para gráficos escaláveis e ícones.</li>
+                                    <li><strong>AVI:</strong> Formato de vídeo antigo, ainda suportado por muitos players, mas menos eficiente que formatos modernos como MP4.</li>
+                                </ul>
+
+                            </div>                            
+
+                        </div>
+
+                        <div class="title">
+                            <h1>HTML VIDEO</h1>
+                            </div>        
+                            <p> em html também é possivel colocar videos em sua pagina:</p>                
+                            <div class="box4">
+                                <div class="ex-head" >
+                                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                                </div> 
+                                <div class="atributos-ex">
+                                    <code class="codespan">
+                                    &lt;video width="400" controls&gt;<br>
+                                    &lt;source src="/assets/highlight.mp4" type="video/mp4"&gt;<br>
+                                    Your browser does not support HTML video. 
+                                  &lt;/video&gt;<br>
+                                    </code>                                                                        
+
+                                </div>                                
+                                
+                            </div>
+                            <video width="400" controls>
+                                <source src="/assets/highlight.mp4" type="video/mp4">
+    
+                              </video>                            
+                              <div class="title">
+                                <h1>HTML AUDIO</h1>
+                                </div>        
+                            <p> em html também é possivel colocar audio em seu site</p>                      
+                            <div class="box4">
+                                <div class="ex-head" >
+                                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                                </div>
+                                <div class="atributos-ex">
+                                    <code class="codespan">
+                                        &lt;audio controls&gt;
+                                        &lt;source src="/assets/cowsound.mp3" type="audio/mpeg"&gt;
+                                        &lt;/audio&gt;
+
+                                    </code>
+
+                                </div>                                 
+                            </div>
+                            <audio controls>
+                                            
+                                <source src="/assets/cowsound.mp3" type="audio/mpeg">
+                              
+                              </audio>
+                              </div>
+                              <div class="title">
+                                <h1>HTML DRAG AND DROP</h1>
+                                </div>        
+                            <p>também é possivel criar eleementos que sao interativeis e que é possivel arrastar e soltar</p>                           
+                            <div class="box4">
+                                <div class="ex-head" >
+                                    <p style="color: rgb(201, 43, 117);">EXEMPLO</p>
+                                </div>
+                                <div class="atributos-ex">
+                                    <code class="codespan">
+                                        <style>
+                                            #div1 {
+                                              width: 350px;
+                                              height: 70px;
+                                              padding: 10px;
+                                              border: 1px solid #aaaaaa;
+                                            }
+                                            </style>
+                                            <script>
+                                            function allowDrop(ev) {
+                                              ev.preventDefault();
+                                            }
+                                            
+                                            function drag(ev) {
+                                              ev.dataTransfer.setData("text", ev.target.id);
+                                            }
+                                            
+                                            function drop(ev) {
+                                              ev.preventDefault();
+                                              var data = ev.dataTransfer.getData("text");
+                                              ev.target.appendChild(document.getElementById(data));
+                                            }
+                                            </script>
+                                            </head>
+                                            <body>
+                                            
+                                            <p>Arraste e solte a ovelha no retangulo</p>
+                                            
+                                            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                            <br>
+                                            <img id="drag1" src="/assets/sheep1.webp" draggable="true" ondragstart="drag(event)" width="100" height="100">
+                                        
+                                    </code>
+
+                                </div>                                
+
+                            </div>
+                            
+    </div>
+        
+    
+    
+</body>
+</html>
