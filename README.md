@@ -39,6 +39,9 @@ Além do conteúdo do site, você pode encontrar recursos adicionais úteis:
 Este site foi criado por @hugozera1 como um projeto pessoal para compartilhar conhecimento e ajudar outros a aprender HTML básico.
 
 
+link da pagina
+https://basic-html-sigma.vercel.app/
+
 
 
 
