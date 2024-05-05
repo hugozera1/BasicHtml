@@ -26,14 +26,6 @@ Para começar, basta navegar pelas diferentes seções do site utilizando a barr
 
 Este projeto é aberto a contribuições! Se você tem sugestões de melhorias, correções de erros ou deseja adicionar mais conteúdo, sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull request no repositório do GitHub.
 
-## Recursos Adicionais
-
-Além do conteúdo do site, você pode encontrar recursos adicionais úteis:
-
-- **Links Úteis**: Uma lista de links para recursos externos, tutoriais, documentação oficial e comunidades onde você pode aprender mais sobre HTML e desenvolvimento web.
-  
-- **FAQ**: Uma lista de perguntas frequentes com respostas detalhadas para ajudar a esclarecer dúvidas comuns.
-
 ## Autor
 
 Este site foi criado por @hugozera1 como um projeto pessoal para compartilhar conhecimento e ajudar outros a aprender HTML básico.
